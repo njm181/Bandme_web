@@ -2,7 +2,7 @@ import React from 'react';
 import { Link } from 'react-router-dom';
 import {Button, Container, MainHeading} from '../../globalStyles';
 import {HeroSection, HeroText, ButtonWrapper, HeroText2, HeroText3, HeroAppsIcon} from './HeroStyle';
-import {FaAppStoreIos,FaGooglePlay} from 'react-icons/fa'
+import {FaGooglePlay} from 'react-icons/fa'
 
 
 
@@ -11,7 +11,7 @@ const Hero = () => {
 	return (
 		<HeroSection>
 			<Container>
-				<MainHeading>Bandme</MainHeading>
+				<MainHeading>BANDME</MainHeading>
 				<HeroText>
 					Connect with people, Share your music, Discover other artists
 				</HeroText>
@@ -20,13 +20,13 @@ const Hero = () => {
 				Share what you know how to do, find the right people, and amazes people in the best places available.
 				</HeroText2>
 				<HeroText3>
-					Avaible download on Google Play Store <HeroAppsIcon><icon><FaGooglePlay/></icon></HeroAppsIcon>	
-					   & iOS AppStore	<HeroAppsIcon><icon><FaAppStoreIos/></icon></HeroAppsIcon>					
+					<p>Avaible download on Google Play Store &nbsp; <HeroAppsIcon><icon><FaGooglePlay/></icon></HeroAppsIcon>	
+					&nbsp;&nbsp;	</p>			
 				</HeroText3>
 				
 				<ButtonWrapper>
-					<Link to="/download">
-						<Button>Download</Button>
+					<Link to="/more">
+						<Button>Info</Button>
 					</Link>
 					
 				</ButtonWrapper>
